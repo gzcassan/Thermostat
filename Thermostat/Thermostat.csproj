@@ -22,13 +22,11 @@
 
   <ItemGroup>
     <None Remove="ClientApp\app\components\weather.ts" />
-    <None Remove="ClientApp\app\components\weather\weather.component.ts" />
     <None Remove="ClientApp\app\globals.ts" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\weather.ts" />
-    <TypeScriptCompile Include="ClientApp\app\components\weather\weather.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\globals.ts" />
   </ItemGroup>
 
