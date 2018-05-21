@@ -6,11 +6,11 @@ import { timer } from "rxjs/observable/timer";
 import { Observable } from 'rxjs';
 
 @Component({
-    selector: 'counter',
-    templateUrl: './counter.component.html',
-    styleUrls: ['./counter.component.css']
+    selector: 'weather',
+    templateUrl: './weather.component.html',
+    styleUrls: ['./weather.component.css']
 })
-export class CounterComponent {
+export class WeatherComponent {
     private timer = Observable.timer(0, 60000);
 
     constructor(public weather: Weather) {
