@@ -1,0 +1,28 @@
+﻿.panel-body {
+    background-color: none;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.panel-default {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-group {
+    background-color: none;
+}
+
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:visited {
+    color: white;
+    background-color: transparent !important;
+    border-color: rgba(255,255,255,0.3) !important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    color: white;
+    background-color: rgba(0,0,0,0.5) !important;
+    border-color: rgba(255,255,255,0.5) !important;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}

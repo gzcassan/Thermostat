@@ -1,0 +1,10 @@
+.navbar-brand {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-nav > li > a {
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+}
