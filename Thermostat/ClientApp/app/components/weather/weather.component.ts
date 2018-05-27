@@ -19,13 +19,16 @@ export class WeatherComponent {
         });
     }
 
-    public currentCount = 0;
-
-    public incrementCounter() {
-        this.currentCount++;
+    public getDescription(): string {
+        return this.toProperCase(this.weather.currentWeather.weather[0].description);
     }
 
-    public temperature(): number {
+    public toProperCase(str: string): string {
+        return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+
+
+    public getTemperature(): number {
         if (this.weather == null)
             return 0;
         if (this.weather.currentWeather == null)
@@ -56,7 +59,7 @@ export class WeatherComponent {
             case "13":
                 return ("typcn typcn-weather-snow");
             case "50":
-                return ("typcn typcn-weather-waves");
+                return ("typcn typcn-waves");
         }
 
         return ("typcn typcn-warning");

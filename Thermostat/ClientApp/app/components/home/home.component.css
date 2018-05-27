@@ -21,8 +21,8 @@
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    color: white;
-    background-color: rgba(0,0,0,0.5) !important;
+    color: black;
+    background: linear-gradient(to bottom, #A0A0A0, #E0E0E0);
     border-color: rgba(255,255,255,0.5) !important;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
 }

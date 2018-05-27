@@ -1,5 +1,9 @@
-.back{
+.back {
     background-image: url('back-001.jpg');
+}
+
+.body-content {
+    padding-top: 0px;
 }
 
 @media (max-width: 767px) {
@@ -10,7 +14,7 @@
     }
 }
 
-.body-overflow{
+.body-overflow {
     overflow-x: hidden;
     overflow-y: hidden;
 }
